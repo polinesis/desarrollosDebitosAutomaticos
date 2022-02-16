@@ -1,40 +1,27 @@
-# KOLEKTOR desarrollosDebitosAutomaticos
+# DesarrollosDebitosAutomaticos
 
-Este proyecto esta desarrollado en Angular 12 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
 
-Comandos 
+## Development server
 
-Se levanta con
-ng serve -o
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-ng g class models/...
+## Code scaffolding
 
-ng g s services
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-ng g c components
+## Build
 
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-El objetivo del proyecto es agregar pantallas a nuestros desarrollos para futuras demos.
+## Running unit tests
 
-Actualmente esta desarrollado:
-A-Embarcaciones para cuota unica y mensualizado para ente paypertic 
-B-Adhesion de plan ant
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-Estructura:
+## Running end-to-end tests
 
-Components
-  Esta capa es la que se encarga por funcionalidad a desarrollar, contener un html, un ts que invoca a capa de servicios y un css.
-  
-layout
-  Esta capa se encarga de contener el menu de opciones 
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-models 
-  Esta capa modela objetos para presentacion y tambien se utiliza para enviar info al back java
+## Further help
 
-services
-    esta capa se conecta con back java. es la encargada de recibir las peticiones http
-
-
-Rooteador interno 
-
-app-routing.modules.ts , aca vamos a rutear las app que seleccionamos del menu
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
